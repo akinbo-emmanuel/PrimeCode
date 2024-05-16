@@ -9,6 +9,12 @@ import FrameComponent from "../components/frame-component";
 const HomePageDesktop: NextPage = () => {
   return (
     <div className="w-full relative bg-gray-300 overflow-hidden flex flex-col items-start justify-start gap-[1.062rem] leading-[normal] tracking-[normal] text-left text-[3.5rem] text-white font-manrope">
+      {/* "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export -o build/",
+    "start": "next start",
+    "lint": "next lint"
+  } */}
       <img
         className="self-stretch relative max-w-full overflow-hidden max-h-full object-cover hidden z-[0]"
         alt=""
